@@ -1,0 +1,478 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\tradeIn_test\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\tradeIn_test\\t_api\\tests\\Feature\\ArticleTest.php||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:t_api\\tests\\Feature\\ArticleTest.php||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\tradeIn_test\\t_frontend\\src\\components\\ArticleList.vue||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:t_frontend\\src\\components\\ArticleList.vue||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\tradeIn_test\\t_frontend\\src\\router\\index.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:t_frontend\\src\\router\\index.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\tradeIn_test\\t_frontend\\src\\App.vue||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:t_frontend\\src\\App.vue||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\tradeIn_test\\t_frontend\\src\\views\\AboutView.vue||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:t_frontend\\src\\views\\AboutView.vue||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\tradeIn_test\\t_frontend\\src\\views\\HomeView.vue||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:t_frontend\\src\\views\\HomeView.vue||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\tradeIn_test\\t_frontend\\tailwind.config.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:t_frontend\\tailwind.config.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\tradeIn_test\\t_frontend\\.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:t_frontend\\.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\tradeIn_test\\t_api\\routes\\api.php||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:t_api\\routes\\api.php||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\tradeIn_test\\t_api\\app\\Http\\Controllers\\ArticleController.php||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:t_api\\app\\Http\\Controllers\\ArticleController.php||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\tradeIn_test\\t_api\\app\\Console\\Commands\\ImportJsonFeed.php||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:t_api\\app\\Console\\Commands\\ImportJsonFeed.php||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\tradeIn_test\\t_api\\database\\migrations\\2024_11_29_172454_create_categories_table.php||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:t_api\\database\\migrations\\2024_11_29_172454_create_categories_table.php||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\tradeIn_test\\t_api\\database\\migrations\\2024_11_29_172455_create_articles_table.php||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:t_api\\database\\migrations\\2024_11_29_172455_create_articles_table.php||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\tradeIn_test\\t_api\\database\\migrations\\2014_10_12_000000_create_users_table.php||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:t_api\\database\\migrations\\2014_10_12_000000_create_users_table.php||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\tradeIn_test\\t_api\\app\\Models\\Article.php||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:t_api\\app\\Models\\Article.php||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\tradeIn_test\\t_api\\app\\Models\\Category.php||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:t_api\\app\\Models\\Category.php||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\tradeIn_test\\t_api\\database\\migrations\\2019_12_14_000001_create_personal_access_tokens_table.php||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:t_api\\database\\migrations\\2019_12_14_000001_create_personal_access_tokens_table.php||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\tradeIn_test\\t_api\\app\\Providers\\AppServiceProvider.php||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:t_api\\app\\Providers\\AppServiceProvider.php||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\tradeIn_test\\t_api\\app\\Providers\\AuthServiceProvider.php||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:t_api\\app\\Providers\\AuthServiceProvider.php||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\tradeIn_test\\t_api\\app\\Models\\User.php||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:t_api\\app\\Models\\User.php||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\tradeIn_test\\t_api\\database\\migrations\\2014_10_12_100000_create_password_reset_tokens_table.php||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:t_api\\database\\migrations\\2014_10_12_100000_create_password_reset_tokens_table.php||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\tradeIn_test\\t_api\\database\\migrations\\2019_08_19_000000_create_failed_jobs_table.php||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:t_api\\database\\migrations\\2019_08_19_000000_create_failed_jobs_table.php||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\tradeIn_test\\t_api\\vite.config.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:t_api\\vite.config.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\tradeIn_test\\t_api\\.env.example||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:t_api\\.env.example||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\tradeIn_test\\t_api\\app\\Console\\Kernel.php||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:t_api\\app\\Console\\Kernel.php||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\tradeIn_test\\t_api\\database\\migrations\\2024_11_29_172456_create_article_category_table.php||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:t_api\\database\\migrations\\2024_11_29_172456_create_article_category_table.php||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 213,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "2024_11_29_172455_create_articles_table.php",
+              "DocumentMoniker": "D:\\tradeIn_test\\t_api\\database\\migrations\\2024_11_29_172455_create_articles_table.php",
+              "RelativeDocumentMoniker": "t_api\\database\\migrations\\2024_11_29_172455_create_articles_table.php",
+              "ToolTip": "D:\\tradeIn_test\\t_api\\database\\migrations\\2024_11_29_172455_create_articles_table.php",
+              "RelativeToolTip": "t_api\\database\\migrations\\2024_11_29_172455_create_articles_table.php",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABIAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002338|",
+              "WhenOpened": "2024-11-29T17:25:56.204Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "ImportJsonFeed.php",
+              "DocumentMoniker": "D:\\tradeIn_test\\t_api\\app\\Console\\Commands\\ImportJsonFeed.php",
+              "RelativeDocumentMoniker": "t_api\\app\\Console\\Commands\\ImportJsonFeed.php",
+              "ToolTip": "D:\\tradeIn_test\\t_api\\app\\Console\\Commands\\ImportJsonFeed.php",
+              "RelativeToolTip": "t_api\\app\\Console\\Commands\\ImportJsonFeed.php",
+              "ViewState": "AgIAAC0AAAAAAAAAAAAAADoAAABDAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002338|",
+              "WhenOpened": "2024-11-29T17:55:35.282Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Article.php",
+              "DocumentMoniker": "D:\\tradeIn_test\\t_api\\app\\Models\\Article.php",
+              "RelativeDocumentMoniker": "t_api\\app\\Models\\Article.php",
+              "ToolTip": "D:\\tradeIn_test\\t_api\\app\\Models\\Article.php",
+              "RelativeToolTip": "t_api\\app\\Models\\Article.php",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAABlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002338|",
+              "WhenOpened": "2024-11-29T21:21:42.089Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Category.php",
+              "DocumentMoniker": "D:\\tradeIn_test\\t_api\\app\\Models\\Category.php",
+              "RelativeDocumentMoniker": "t_api\\app\\Models\\Category.php",
+              "ToolTip": "D:\\tradeIn_test\\t_api\\app\\Models\\Category.php",
+              "RelativeToolTip": "t_api\\app\\Models\\Category.php",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002338|",
+              "WhenOpened": "2024-11-29T21:21:46.79Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ArticleTest.php",
+              "DocumentMoniker": "D:\\tradeIn_test\\t_api\\tests\\Feature\\ArticleTest.php",
+              "RelativeDocumentMoniker": "t_api\\tests\\Feature\\ArticleTest.php",
+              "ToolTip": "D:\\tradeIn_test\\t_api\\tests\\Feature\\ArticleTest.php",
+              "RelativeToolTip": "t_api\\tests\\Feature\\ArticleTest.php",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002338|",
+              "WhenOpened": "2024-11-29T21:56:45.666Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ArticleList.vue",
+              "DocumentMoniker": "D:\\tradeIn_test\\t_frontend\\src\\components\\ArticleList.vue",
+              "RelativeDocumentMoniker": "t_frontend\\src\\components\\ArticleList.vue",
+              "ToolTip": "D:\\tradeIn_test\\t_frontend\\src\\components\\ArticleList.vue",
+              "RelativeToolTip": "t_frontend\\src\\components\\ArticleList.vue",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAACkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003491|",
+              "WhenOpened": "2024-11-29T21:55:05.077Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "App.vue",
+              "DocumentMoniker": "D:\\tradeIn_test\\t_frontend\\src\\App.vue",
+              "RelativeDocumentMoniker": "t_frontend\\src\\App.vue",
+              "ToolTip": "D:\\tradeIn_test\\t_frontend\\src\\App.vue",
+              "RelativeToolTip": "t_frontend\\src\\App.vue",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003491|",
+              "WhenOpened": "2024-11-29T21:53:13.624Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AboutView.vue",
+              "DocumentMoniker": "D:\\tradeIn_test\\t_frontend\\src\\views\\AboutView.vue",
+              "RelativeDocumentMoniker": "t_frontend\\src\\views\\AboutView.vue",
+              "ToolTip": "D:\\tradeIn_test\\t_frontend\\src\\views\\AboutView.vue",
+              "RelativeToolTip": "t_frontend\\src\\views\\AboutView.vue",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003491|",
+              "WhenOpened": "2024-11-29T21:53:07.776Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "HomeView.vue",
+              "DocumentMoniker": "D:\\tradeIn_test\\t_frontend\\src\\views\\HomeView.vue",
+              "RelativeDocumentMoniker": "t_frontend\\src\\views\\HomeView.vue",
+              "ToolTip": "D:\\tradeIn_test\\t_frontend\\src\\views\\HomeView.vue",
+              "RelativeToolTip": "t_frontend\\src\\views\\HomeView.vue",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003491|",
+              "WhenOpened": "2024-11-29T21:52:10.693Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "index.ts",
+              "DocumentMoniker": "D:\\tradeIn_test\\t_frontend\\src\\router\\index.ts",
+              "RelativeDocumentMoniker": "t_frontend\\src\\router\\index.ts",
+              "ToolTip": "D:\\tradeIn_test\\t_frontend\\src\\router\\index.ts",
+              "RelativeToolTip": "t_frontend\\src\\router\\index.ts",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2024-11-29T21:49:59.992Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "tailwind.config.js",
+              "DocumentMoniker": "D:\\tradeIn_test\\t_frontend\\tailwind.config.js",
+              "RelativeDocumentMoniker": "t_frontend\\tailwind.config.js",
+              "ToolTip": "D:\\tradeIn_test\\t_frontend\\tailwind.config.js",
+              "RelativeToolTip": "t_frontend\\tailwind.config.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-11-29T21:48:59.057Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": ".gitignore",
+              "DocumentMoniker": "D:\\tradeIn_test\\t_frontend\\.gitignore",
+              "RelativeDocumentMoniker": "t_frontend\\.gitignore",
+              "ToolTip": "D:\\tradeIn_test\\t_frontend\\.gitignore",
+              "RelativeToolTip": "t_frontend\\.gitignore",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-11-29T21:46:11.812Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "api.php",
+              "DocumentMoniker": "D:\\tradeIn_test\\t_api\\routes\\api.php",
+              "RelativeDocumentMoniker": "t_api\\routes\\api.php",
+              "ToolTip": "D:\\tradeIn_test\\t_api\\routes\\api.php",
+              "RelativeToolTip": "t_api\\routes\\api.php",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAA9AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002338|",
+              "WhenOpened": "2024-11-29T21:42:31.194Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ArticleController.php",
+              "DocumentMoniker": "D:\\tradeIn_test\\t_api\\app\\Http\\Controllers\\ArticleController.php",
+              "RelativeDocumentMoniker": "t_api\\app\\Http\\Controllers\\ArticleController.php",
+              "ToolTip": "D:\\tradeIn_test\\t_api\\app\\Http\\Controllers\\ArticleController.php",
+              "RelativeToolTip": "t_api\\app\\Http\\Controllers\\ArticleController.php",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002338|",
+              "WhenOpened": "2024-11-29T21:41:00.755Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "AuthServiceProvider.php",
+              "DocumentMoniker": "D:\\tradeIn_test\\t_api\\app\\Providers\\AuthServiceProvider.php",
+              "RelativeDocumentMoniker": "t_api\\app\\Providers\\AuthServiceProvider.php",
+              "ToolTip": "D:\\tradeIn_test\\t_api\\app\\Providers\\AuthServiceProvider.php",
+              "RelativeToolTip": "t_api\\app\\Providers\\AuthServiceProvider.php",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002338|",
+              "WhenOpened": "2024-11-29T20:33:17.277Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "AppServiceProvider.php",
+              "DocumentMoniker": "D:\\tradeIn_test\\t_api\\app\\Providers\\AppServiceProvider.php",
+              "RelativeDocumentMoniker": "t_api\\app\\Providers\\AppServiceProvider.php",
+              "ToolTip": "D:\\tradeIn_test\\t_api\\app\\Providers\\AppServiceProvider.php",
+              "RelativeToolTip": "t_api\\app\\Providers\\AppServiceProvider.php",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002338|",
+              "WhenOpened": "2024-11-29T20:30:48.401Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "User.php",
+              "DocumentMoniker": "D:\\tradeIn_test\\t_api\\app\\Models\\User.php",
+              "RelativeDocumentMoniker": "t_api\\app\\Models\\User.php",
+              "ToolTip": "D:\\tradeIn_test\\t_api\\app\\Models\\User.php",
+              "RelativeToolTip": "t_api\\app\\Models\\User.php",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002338|",
+              "WhenOpened": "2024-11-29T20:30:00.277Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "2019_12_14_000001_create_personal_access_tokens_table.php",
+              "DocumentMoniker": "D:\\tradeIn_test\\t_api\\database\\migrations\\2019_12_14_000001_create_personal_access_tokens_table.php",
+              "RelativeDocumentMoniker": "t_api\\database\\migrations\\2019_12_14_000001_create_personal_access_tokens_table.php",
+              "ToolTip": "D:\\tradeIn_test\\t_api\\database\\migrations\\2019_12_14_000001_create_personal_access_tokens_table.php",
+              "RelativeToolTip": "t_api\\database\\migrations\\2019_12_14_000001_create_personal_access_tokens_table.php",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002338|",
+              "WhenOpened": "2024-11-29T19:06:28.241Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "2019_08_19_000000_create_failed_jobs_table.php",
+              "DocumentMoniker": "D:\\tradeIn_test\\t_api\\database\\migrations\\2019_08_19_000000_create_failed_jobs_table.php",
+              "RelativeDocumentMoniker": "t_api\\database\\migrations\\2019_08_19_000000_create_failed_jobs_table.php",
+              "ToolTip": "D:\\tradeIn_test\\t_api\\database\\migrations\\2019_08_19_000000_create_failed_jobs_table.php",
+              "RelativeToolTip": "t_api\\database\\migrations\\2019_08_19_000000_create_failed_jobs_table.php",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002338|",
+              "WhenOpened": "2024-11-29T19:06:22.814Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "2014_10_12_100000_create_password_reset_tokens_table.php",
+              "DocumentMoniker": "D:\\tradeIn_test\\t_api\\database\\migrations\\2014_10_12_100000_create_password_reset_tokens_table.php",
+              "RelativeDocumentMoniker": "t_api\\database\\migrations\\2014_10_12_100000_create_password_reset_tokens_table.php",
+              "ToolTip": "D:\\tradeIn_test\\t_api\\database\\migrations\\2014_10_12_100000_create_password_reset_tokens_table.php",
+              "RelativeToolTip": "t_api\\database\\migrations\\2014_10_12_100000_create_password_reset_tokens_table.php",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002338|",
+              "WhenOpened": "2024-11-29T19:06:14.213Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "vite.config.js",
+              "DocumentMoniker": "D:\\tradeIn_test\\t_api\\vite.config.js",
+              "RelativeDocumentMoniker": "t_api\\vite.config.js",
+              "ToolTip": "D:\\tradeIn_test\\t_api\\vite.config.js",
+              "RelativeToolTip": "t_api\\vite.config.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-11-29T19:03:37.118Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "Kernel.php",
+              "DocumentMoniker": "D:\\tradeIn_test\\t_api\\app\\Console\\Kernel.php",
+              "RelativeDocumentMoniker": "t_api\\app\\Console\\Kernel.php",
+              "ToolTip": "D:\\tradeIn_test\\t_api\\app\\Console\\Kernel.php",
+              "RelativeToolTip": "t_api\\app\\Console\\Kernel.php",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABoAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002338|",
+              "WhenOpened": "2024-11-29T18:16:29.492Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "2024_11_29_172456_create_article_category_table.php",
+              "DocumentMoniker": "D:\\tradeIn_test\\t_api\\database\\migrations\\2024_11_29_172456_create_article_category_table.php",
+              "RelativeDocumentMoniker": "t_api\\database\\migrations\\2024_11_29_172456_create_article_category_table.php",
+              "ToolTip": "D:\\tradeIn_test\\t_api\\database\\migrations\\2024_11_29_172456_create_article_category_table.php",
+              "RelativeToolTip": "t_api\\database\\migrations\\2024_11_29_172456_create_article_category_table.php",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABAAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002338|",
+              "WhenOpened": "2024-11-29T17:36:03.376Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "2024_11_29_172454_create_categories_table.php",
+              "DocumentMoniker": "D:\\tradeIn_test\\t_api\\database\\migrations\\2024_11_29_172454_create_categories_table.php",
+              "RelativeDocumentMoniker": "t_api\\database\\migrations\\2024_11_29_172454_create_categories_table.php",
+              "ToolTip": "D:\\tradeIn_test\\t_api\\database\\migrations\\2024_11_29_172454_create_categories_table.php",
+              "RelativeToolTip": "t_api\\database\\migrations\\2024_11_29_172454_create_categories_table.php",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002338|",
+              "WhenOpened": "2024-11-29T17:32:46.232Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "2014_10_12_000000_create_users_table.php",
+              "DocumentMoniker": "D:\\tradeIn_test\\t_api\\database\\migrations\\2014_10_12_000000_create_users_table.php",
+              "RelativeDocumentMoniker": "t_api\\database\\migrations\\2014_10_12_000000_create_users_table.php",
+              "ToolTip": "D:\\tradeIn_test\\t_api\\database\\migrations\\2014_10_12_000000_create_users_table.php",
+              "RelativeToolTip": "t_api\\database\\migrations\\2014_10_12_000000_create_users_table.php",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002338|",
+              "WhenOpened": "2024-11-29T17:26:27.085Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": ".env.example",
+              "DocumentMoniker": "D:\\tradeIn_test\\t_api\\.env.example",
+              "RelativeDocumentMoniker": "t_api\\.env.example",
+              "ToolTip": "D:\\tradeIn_test\\t_api\\.env.example",
+              "RelativeToolTip": "t_api\\.env.example",
+              "ViewState": "AgIAACcAAAAAAAAAAAAAAA0AAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-11-29T17:04:41.478Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
