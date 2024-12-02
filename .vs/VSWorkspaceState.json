@@ -2,15 +2,10 @@
   "ExpandedNodes": [
     "",
     "\\t_api",
-    "\\t_api\\app\\Console\\Commands",
-    "\\t_api\\app\\Http\\Controllers",
-    "\\t_api\\tests",
-    "\\t_api\\tests\\Feature",
     "\\t_frontend\\src",
     "\\t_frontend\\src\\components",
-    "\\t_frontend\\src\\router",
-    "\\t_frontend\\src\\views"
+    "\\t_frontend\\src\\router"
   ],
-  "SelectedNode": "\\t_api\\tests\\Feature\\ArticleTest.php",
+  "SelectedNode": "\\t_api\\Dockerfile",
   "PreviewInSolutionExplorer": false
 }

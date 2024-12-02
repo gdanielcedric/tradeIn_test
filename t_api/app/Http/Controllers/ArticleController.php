@@ -3,23 +3,35 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use App\Models\Article;
+use App\Models\Category;
 
 class ArticleController extends Controller
 {
     public function index(Request $request)
     {
-        $query = Article::with('categories');
+        $query = Article::query();
 
-        if ($request->filled('search')) {
-            $query->where('title', 'like', '%' . $request->search . '%')
-                  ->orWhere('content', 'like', '%' . $request->search . '%');
+        // Recherche par mot-clé
+        if ($request->has('search')) {
+            $search = $request->query('search');
+            $query->where(function ($q) use ($search) {
+                $q->where('title', 'LIKE', "%{$search}%")
+                  ->orWhere('content', 'LIKE', "%{$search}%");
+            });
         }
 
-        if ($request->filled('category')) {
-            $query->whereHas('categories', fn($q) => $q->where('name', $request->category));
-        }
+        // Filtrage par catégorie
+        //if ($request->has('category')) {
+            //$category = $request->query('category');
+            //$query->where('category', $category);
+        //}
 
-        return $query->paginate(10);
+        // Pagination
+        $perPage = $request->query('per_page', 10);
+        $articles = $query->paginate($perPage);
+
+        return response()->json($articles);
     }
 
 }
