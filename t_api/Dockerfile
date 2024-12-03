@@ -1,29 +1,34 @@
-# Étape 1 : Utiliser une image PHP officielle avec extensions nécessaires
 FROM php:8.1-fpm
 
-# Étape 2 : Installer des extensions PHP requises
+# Installer les dépendances
 RUN apt-get update && apt-get install -y \
-    git curl libpng-dev libonig-dev libxml2-dev zip unzip \
-    && docker-php-ext-install pdo_mysql mbstring exif pcntl bcmath gd
+    libpng-dev \
+    libjpeg-dev \
+    libfreetype6-dev \
+    zip \
+    unzip \
+    git \
+    && docker-php-ext-configure gd --with-freetype --with-jpeg \
+    && docker-php-ext-install gd pdo pdo_mysql
 
-# Étape 3 : Installer Composer
+# Installer Composer
 COPY --from=composer:latest /usr/bin/composer /usr/bin/composer
 
-# Étape 4 : Créer et définir le répertoire de l'application
+# Définir le dossier de travail
 WORKDIR /var/www
 
-# Étape 5 : Copier les fichiers Laravel
+# Copier les fichiers
 COPY . .
 
-# Étape 6 : Installer les dépendances Laravel
-RUN composer install --no-dev --optimize-autoloader
+# Installer les dépendances Laravel
+RUN composer install --optimize-autoloader --no-dev
 
-# Étape 7 : Configurer les permissions
+# Donner les permissions nécessaires
 RUN chown -R www-data:www-data /var/www \
     && chmod -R 755 /var/www/storage
 
-# Étape 8 : Exposer le port
-# EXPOSE 9000
+# Exposer le port
+EXPOSE 8000
 
 # Commande par défaut
 CMD ["php-fpm"]

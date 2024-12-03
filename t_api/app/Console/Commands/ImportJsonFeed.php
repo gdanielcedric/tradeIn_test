@@ -53,7 +53,7 @@ class ImportJsonFeed extends Command
                 'content' => $item['content'][0]['content'] ?? '',
                 'author_slug' => $item['authors'][0]['slug'] ?? '',
                 'author_avatar' => $item['authors'][0]['avatar'] ?? '',
-                'featured_media' => $item['media']['media']['attributes']['url'] ?? null,
+                'featured_media' => $item['media'][0]['media']['attributes']['url'] ?? null,
             ]);
 
             $categories = collect([$item['categories']['primary']])

@@ -1,45 +1,54 @@
 version: '3.8'
+
 services:
-  api:
+  app:
     build:
       context: ./t_api
-      dockerfile: Dockerfile
-    ports:
-      - "8000:80"
-    volumes:
-      - ./t_api:/var/www
+    container_name: laravel_app
+    restart: unless-stopped
+    tty: true
     environment:
       - APP_ENV=local
-      - APP_KEY=
       - APP_DEBUG=true
-      - DB_CONNECTION=mysql
       - DB_HOST=db
       - DB_PORT=3306
       - DB_DATABASE=tradein
       - DB_USERNAME=root
-      - DB_PASSWORD=root
+      - DB_PASSWORD=
+    volumes:
+      - ./t_api:/var/www
+    ports:
+      - 8000:8000
     depends_on:
       - db
 
-  db:
-    image: mysql:8.0
-    container_name: mysql
-    ports:
-      - "3306:3306"
-    environment:
-      - MYSQL_DATABASE=tradein
-      - MYSQL_ROOT_PASSWORD=root
-    volumes:
-      - db_data:/var/lib/mysql
-
-  ui:
+  frontend:
     build:
       context: ./t_frontend
-      dockerfile: Dockerfile
+    container_name: vue_frontend
+    restart: unless-stopped
     ports:
-      - "8200:8200"
+      - 3000:3000
     depends_on:
-      - api
+      - app
 
-volumes:
-  db_data:
+  db:
+    image: mysql:8.0
+    container_name: laravel_db
+    restart: unless-stopped
+    environment:
+      MYSQL_DATABASE: tradein
+      MYSQL_ALLOW_EMPTY_PASSWORD: yes
+    volumes:
+      - ./db_data:/var/lib/mysql
+    ports:
+      - 3306:3306
+
+  # artisan:
+  #   build:
+  #     context: ./t_api
+  #   container_name: laravel_artisan
+  #   entrypoint: ["php", "/var/www/artisan", "app:import-json-feed"]
+  #   depends_on:
+  #     - db
+

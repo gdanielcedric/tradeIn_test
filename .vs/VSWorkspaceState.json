@@ -1,11 +1,8 @@
 {
   "ExpandedNodes": [
     "",
-    "\\t_api",
-    "\\t_frontend\\src",
-    "\\t_frontend\\src\\components",
-    "\\t_frontend\\src\\router"
+    "\\t_frontend"
   ],
-  "SelectedNode": "\\t_api\\Dockerfile",
+  "SelectedNode": "\\.gitignore",
   "PreviewInSolutionExplorer": false
 }

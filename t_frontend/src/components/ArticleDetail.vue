@@ -1,41 +1,66 @@
 <template>
-  <div class="p-4">
-    <div v-if="article">
-      <h1 class="text-3xl font-bold">{{ article.title }}</h1>
-      <div class="mt-4" v-html="article.content"></div>  <!-- Affichage du contenu HTML -->
-    </div>
-    <div v-else>
-      <p>Chargement...</p>
-    </div>
+  <div>
+    <h1 class="text-3xl font-bold mb-4">{{ article?.title }}</h1>
+    <img :src="article?.featured_media || '../default-image.jpg'"
+         alt="Article Image"
+         class="w-full max-h-80 object-cover mb-4" />
+    <div v-html="article?.content" class="prose"></div>
   </div>
 </template>
 
 <script lang="ts">
-import { defineComponent, ref, onMounted } from 'vue';
-import axios from '../plugins/axios';
-import { Article } from '../types';
-import { useRoute } from 'vue-router';
+  import { defineComponent, onMounted, ref, watch } from 'vue'
+  import { useRoute } from 'vue-router'
+  import { getCachedArticle } from '../utils/cache'
+  import axios from '../plugins/axios'
 
-export default defineComponent({
-  setup() {
-    const article = ref<Article | null>(null);
-    const route = useRoute(); // Accéder à l'ID de l'article depuis l'URL
+  export default defineComponent({
+    setup() {
+      const route = useRoute()
+      const article = ref<any | null>(null)
 
-    onMounted(async () => {
-      const articleId = route.params.id;
-      try {
-        const response = await axios.get(`/articles/${articleId}`);
-        article.value = response.data;
-      } catch (error) {
-        console.error('Erreur lors du chargement de l\'article:', error);
+      console.log('ArticleDetail.vue loaded');
+
+      const fetchArticle = async (id: number) => {
+        const cached = getCachedArticle(id)
+        if (cached) {
+          article.value = cached
+        } else {
+          const { data } = await axios.get(`/articles/${id}`)
+          article.value = data
+        }
       }
-    });
 
-    return { article };
-  },
-});
+      onMounted(() => {
+        const id = Number(route.params.id);
+        console.log("Navigated to article ID:", id);
+        fetchArticle(id);
+      });
+
+      // Watch for route changes
+      watch(
+        () => route.params.id,
+        (newId) => {
+          fetchArticle(Number(newId));
+        }
+      );
+
+      return {
+        article,
+      }
+    },
+  })
 </script>
 
 <style scoped>
-  /* Style pour la page de détail */
+  .prose {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+  }
+
+  h1 {
+    font-size: 2rem;
+    color: #333;
+  }
+
 </style>

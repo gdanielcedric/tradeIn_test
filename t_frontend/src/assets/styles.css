@@ -1,0 +1,28 @@
+/* Typographie */
+body {
+    font-family: 'Inter', sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+/* Boutons */
+button {
+    transition: all 0.3s ease;
+}
+
+button:hover {
+    transform: translateY(-2px);
+}
+
+/* Images */
+img {
+    border-radius: 4px;
+}
+
+/* Grilles */
+.grid {
+    display: grid;
+    gap: 1.5rem;
+}

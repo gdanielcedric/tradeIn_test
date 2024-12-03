@@ -3,18 +3,15 @@ import ArticleList from '../components/ArticleList.vue';
 import ArticleDetail from '../components/ArticleDetail.vue';
 
 const routes = [
-  {
-    path: '/',
-    name: 'home',
-    component: ArticleList,
-  },
+  { path: '/', name: 'Home', component: ArticleList },
   {
     path: '/article/:id',
-    name: 'article',
+    name: 'ArticleDetail',
     component: ArticleDetail,
-    props: true, // Permet de passer l'ID en tant que prop
+    props: true,
+    key: (route) => route.params.id, // Clé basée sur l'ID
   },
-];
+]
 
 const router = createRouter({
   history: createWebHistory(),

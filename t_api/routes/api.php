@@ -22,6 +22,8 @@ Route::middleware('auth:sanctum')->get('/user', function (Request $request) {
 
 Route::get('/articles', [ArticleController::class, 'index']);
 
+Route::get('articles/categories/{categoryId}', [ArticleController::class, 'getArticlesByCategory']);
+
 Route::get('/categories', function () {
     return Category::all();
 });
