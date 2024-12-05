@@ -1,8 +1,9 @@
 {
   "ExpandedNodes": [
     "",
-    "\\t_frontend"
+    "\\t_api",
+    "\\t_api\\config"
   ],
-  "SelectedNode": "\\.gitignore",
+  "SelectedNode": "\\t_api\\.env",
   "PreviewInSolutionExplorer": false
 }

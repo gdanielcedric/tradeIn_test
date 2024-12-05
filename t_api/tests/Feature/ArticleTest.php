@@ -11,7 +11,7 @@ class ArticleTest extends TestCase
     /**
      * A basic feature test example.
      */
-    public function test_example(): void
+    public function testarticles(): void
     {
         $response = $this->get('/');
 
